@@ -91,30 +91,30 @@
 // }
    
 
-var per =59;
-if(per >=80 && per<= 100){
-    console.log("you are in merit.");
+// var per =59;
+// if(per >=80 && per<= 100){
+//     console.log("you are in merit.");
 
-}
-else if (per >=60 && per<=80){
-    console.log("You are first diviesion.");
-}
-else if (per >=33 && per<=60){
-    console.log("You are second diviesion.");
-}
-else if (per >=33 && per<=45){
-    console.log("You are third diviesion.");
-}
-else if (per <33){
-    console.log("You are fail.");
-}
-else {
-    console.log("Please inter valid percentge");
+// }
+// else if (per >=60 && per<=80){
+//     console.log("You are first diviesion.");
+// }
+// else if (per >=33 && per<=60){
+//     console.log("You are second diviesion.");
+// }
+// else if (per >=33 && per<=45){
+//     console.log("You are third diviesion.");
+// }
+// else if (per <33){
+//     console.log("You are fail.");
+// }
+// else {
+//     console.log("Please inter valid percentge");
 
-}
+// }
+ var time = 9;
 
-
-if (time<10);{
+if (time<10){
     console.log("good morning");
 }
 else if (time<20){
@@ -124,5 +124,4 @@ else {
     console.log("good evening");
 
 }
-
 
