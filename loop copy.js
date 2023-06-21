@@ -72,10 +72,17 @@
   //   console.log(num1 > 50 && num1 < 99 && num1 < 10);
   //   console.log(num1 > 50  || num1 < 90 || num1 < 20 );
                            
+      
+  // // String - text -'1234' , "LENEVO", "Hello" `hi`
+  // // Number - number -123, 456, 78965,
+  // // Boolean - true , false 
+  // // // Varibles - we can store the data-
+  // snytx =
+
+  var kuchbhi = '6774867';
+  console.log(kuchbhi)
                             
-                            
-                          
-                       
+             
 // String - text - '1234' , "LENOVO", "Hello" , `Hi`
 // Number - number - 123, 34,65.56,7889856,0.344
 // Boolean - true , false 
@@ -100,62 +107,21 @@
 // console.log(typeof (booleanValue))
 
 
-// Q. Check user age and provied licennnn... 
-
-// if user age is 18 then he is applicbke for Learnign licc... 
-// user age is greater than 18 and lesser than 80 then dl 
-// user age is lesser 18 or greter 80 not allowed dl  
 
 
-var userAge = 34;
 
-// if (userAge == 18) {
-//     console.log("You are applicable for Learning Licence...")
-// } else if( userAge < 80 && userAge > 18 ){
-//     console.log("You are allow for Driving Licence..")
-// } else {
-//     console.log("You are NOT allow for driving licenceee...")
-// }
 
-//  var userAge = 18;
-// if  (userAge == 18){  
-// console.log("you are applicable the lerning lice.....")
-// } else if (userAge <80  && userAge > 18){
-// console.log("you are allow the driving licencee....")
-// }else{
-//   console.log("you are not allow the driving lice.....")
-// }
 
-// var userAge = 18;
-// if (userAge == 18){
-//   console.log("you are applicable the learning lic....")
-// }else if (userAge <80 && userAge > 18) {
-//   console.log("you are allow the driving linc....")
-// }else{
-//   console.log("you are not allow the driving lincee....")
-// }
 
-var myName  =  "samiksha"    // Decleration
-console.log(myName);
-console.log(typeof(myName));
 
-myName = "Samiksha" ; // assign
-console.log(myName,"- again")
- 
-var myname = "samiksha";
-console.log (myname);
-     console.log(typeof(myname));
-     var myname = "samiksha";
-     console.log(myname, "-again")
-                                    // =====arrrayMethod======
 
-     var hii = "Hello"
-var kuchBhi = ["Swaraj","XYZ",98765, true, "false",hii];
-console.log(kuchBhi[0]);
-console.log(kuchBhi.length)
 
-var hii = "Hello";
-console.log
+
+
+
+
+             
+                            
 
                            
                                                      
