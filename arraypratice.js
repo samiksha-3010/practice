@@ -215,3 +215,122 @@
 // console.log(arr.indexOf)((30));
 // console.log(arr.length);
 // console.log(arr.indexOf(arr.length));
+
+// let arr = [5, 8, 6, 7, 9, 10, 20, 30, 6, 54];
+
+// console.log(arr.lastIndexOf(6));
+
+// let arr = [ 5, 8, 9, 4, 10, 23, 56, 78]
+// console.log(arr.lastIndexOf(56));
+
+
+
+// ***********************FILL
+// array.fill(value, start, end);
+
+// let arr = [10, 20, 30, 6, 54];
+
+// let newArr = arr.fill("hi");
+// console.log(arr);
+// arr.fill(30);
+// console.log(arr);
+// arr.fill(3, 2, 5);
+// console.log(arr);
+
+// arr.fill()
+// Array.fill (value, start, end);
+// let arr =[ 10, 30, 35, 8, 57,]
+
+// let newArr = arr.fill ("hello")
+// console.log(arr);
+// arr.fill(30);
+// console.log(arr);       //not understand
+// arr.fill(3,2,5);
+// console.log(arr);
+// arr.fill;
+
+// let arr = [10, 20, 30, 6, 54];
+
+// console.log(arr.slice(1, 3)); // starts from 1 and ends on 2
+
+// let arr = [ 12, 45, 67, 8, 90, 23]
+// console.log(arr.slice (1,3));
+
+
+// *********************REVERSE METHOD
+
+// let arr = [10, 20, 30];  //print start last value
+
+// console.log(arr.reverse());
+
+// let arr =[23, 56, 78, 90, 45];
+
+// let arr1 =[
+//     [1, 2, 4, 6], [5, 7, 9, 4],
+// ];
+// console.log (arr1);
+
+// let arr2 =[
+//     [1, 3, 5, 6],
+//     [2, 4, 5, 6],
+//     [3, 5, 6, 8]
+//     [3, 5, [99,33]],
+// ];
+// console.log(arr2);
+
+// let arr2 = [
+//   [1, 2, 3],
+//   [5, 4, 9],
+//   [9, 4, 9],
+//   [5, 8, 4],
+//   [1, 4, 9],
+//   [3, 4, [99, 33]],
+// ];
+
+// console.log(arr2);
+
+// let arr3 = [
+//   [1, 2, 3],
+//   [5, 4, 9],
+//   [9, [55, 99, [66, 88, 650, [888, 1000]]], 9],
+//   [5, 8, 4],
+//   [1, 4, 9],
+//   [3, 4, [99, 33]],
+// ];
+// console.log(arr3);
+
+// let arr3;[
+//     [1, 3, 5],
+//     [3, 5, 9],
+//     [ 9, [ 55, 99, [ 66, 88, 99,[ 888, 10000,]]],9],
+//     [ 1, 4, 9],
+//     [3, 4, [ 99, 33]],
+// ];
+// console.log(arr3);
+
+// let newArr = arr1.flat();
+// let newArr = arr2.flat(2);
+// let newArr = arr3.flat(Infinity);
+// console.log(newArr);
+
+
+//******************** ARRAYFROM
+
+// let str = "manoj";
+// let makeArr = Array.from(str);
+// console.log(makeArr);
+
+// let arr = [5, 2, 3];
+// let newArr = Array.from(arr, (x) => {
+//   return x + x;
+// });
+
+// console.log(newArr);
+
+// let str = "nidhi";
+// let makeArr = Array.from(str);
+// console.log(makeArr);
+// let arr = [2, 4, 6];
+// let newArr = Array.from(arr, (x) =>{
+// return x + x;
+// });
