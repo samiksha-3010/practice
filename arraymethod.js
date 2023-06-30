@@ -124,14 +124,78 @@
 // })
 // console.log (newArr);
 
+                                    //  ======mapArrPratice========
 
 
-
-let  mapArr = [2, 5, 8,10,];
-let newMap = mapArr.map((array, index,element) =>{
-    return array +2 ;
-//    return index;
-//    return element;
+// let  mapArr = [2, 5, 8,10,];
+// let newMap = mapArr.map((array, index,element) =>{
+//     return array +2 ;
+// //    return index;
+// //    return element;
   
-});
-console.log(newMap);
+// });
+// console.log(newMap);
+
+// let mapArr = [23, 45, 67, 89, 90];
+// let newMap = mapArr.map ((element, index, array) =>{
+//     return element +4;     //add in element    
+//   return   index;   //  start 0
+//   return  array ;    // return everyelement  many times
+//   return index ;
+// })
+// console.log(newMap);
+
+    // var num1 = [ 12,34,65,]
+    // console.log(num1[0]);
+   
+
+    // var num2 = [23, 67, 56, 34]
+    // console.log(num2[1] );
+    // console.log (num2[2]);
+    // console.log(num2[3]);
+
+
+// let mapArr = [ 23, 56, 78, 90];
+// let newMap = mapArr.map((index) =>{
+// return index;
+// });
+ // console.log(newMap);
+
+// let mapArr = [ 23, 56, 78, 12, 45, 34 ];
+// let  newMap = mapArr.map((array)=>{
+// return array*6;  //mul
+// });
+// console.log(newMap);
+
+// let mapArr = [23, 45,12,45,89];
+// let newMap = mapArr.map((element)=>{
+// return element /2;
+// });
+// console.log(newMap);
+
+// let mapArr= [ 23,45, 78, 90];
+// let newMap = mapArr.map((index) =>{
+//     return index-2;
+// }) 
+//  console.log(newMap)
+
+// let mapArr = [234, 567,234,456,];
+// let newMap = mapArr.map((element) =>{
+//     return  element /4;
+// })
+// console.log(newMap);
+
+var num1 =  [ 23, 56, 89, 90,12];
+console.log(num1[3]);
+
+var num2 = ["samiksha"," Anikja", "nidhi"];
+console.log(num2[2])
+
+var num3 = ["samiksha", "annnu", "vibhu"];
+console.log(num3[0]);
+
+var num4 = [ "product", "smailer","vibhu"];
+
+
+
+
