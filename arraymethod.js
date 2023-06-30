@@ -1,14 +1,18 @@
     //    ===========map=============
     // let mapArr = [ 3, 4, 7, 9, 6, 3];
     //   let newMap = mapArr.map((element, index, array)  => {
-    //     return element;
-    //     return index;
-    //     return array;
-    //     return element * 2;
-    //     return index * 2;
+    //     // return element;
+    //     // return index;
+    //     // return array;
+    //     //  return element * 2;
+    //     //  return index * 2;
 
     //   });
-    //   console.log(newMap)
+    // // 
+    
+    // var num1 = [ 12,34,65,]
+    // console.log(num1[0]);
+   
 
 //       let mapArr = [3,4 , 5, 7, 8];
 //       let newMap = mapArr.map ((element, index, array) => {
@@ -101,15 +105,15 @@
 // ***********************FOR EACH
 // is not chainable
 
-let arr = [5, 10, 55, 22, 3];
+// let arr = [5, 10, 55, 22, 3];
 
-arr.forEach((element, index, array) => {
-    console.log(element);
-    console.log(index);
-    console.log(array);
-    return element;
-});
-console.log(newArr);
+// arr.forEach((element, index, array) => {
+//     console.log(element);
+//     console.log(index);
+//     console.log(array);
+//     return element;
+// });
+// console.log(newArr);
 
 // let arr = [ 5,6,7,8,9];
 // arr.forEach((element , index,array) => {
@@ -120,3 +124,14 @@ console.log(newArr);
 // })
 // console.log (newArr);
 
+
+
+
+let  mapArr = [2, 5, 8,10,];
+let newMap = mapArr.map((array, index,element) =>{
+    return array +2 ;
+//    return index;
+//    return element;
+  
+});
+console.log(newMap);
