@@ -185,17 +185,34 @@
 // })
 // console.log(newMap);
 
-var num1 =  [ 23, 56, 89, 90,12];
-console.log(num1[3]);
+// var num1 =  [ 23, 56, 89, 90,12];
+// console.log(num1[3]);
 
-var num2 = ["samiksha"," Anikja", "nidhi"];
-console.log(num2[2])
+// var num2 = ["samiksha"," Anikja", "nidhi"];
+// console.log(num2[2])
 
-var num3 = ["samiksha", "annnu", "vibhu"];
-console.log(num3[0]);
+// var num3 = ["samiksha", "annnu", "vibhu"];
+// console.log(num3[0]);
 
-var num4 = [ "product", "smailer","vibhu"];
-
-
+// var num4 = [ "product", "smailer","vibhu"];
 
 
+
+// =======filter==========
+
+//   let filterArr = [2, 3, 5, 6, 7, 9, 3];
+//   let filterArray  =  filterArr.filter ((element ,index) => {
+//     return index  > 10;
+//     return element; 
+//    return index > 6;
+//   })
+//   console.log(filterArr);
+
+
+
+//  let filterArr = [2, 3, 5, 7, 9, 90];
+//  let  filterArray = filterArr. filter((index) => {
+//     return index +
+//     10;
+//  });
+//  console.log(filterArr);

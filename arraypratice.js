@@ -199,14 +199,13 @@
 
 // let arr = [2, 4, 6, 8, 9, ];
 // let someArr = arr.some((element) =>{
-//  return element < 1 ;
+//  return element < 8 ;
 // })
 // console.log(someArr);
 
 // ===========================INDEXOF
 
 // let arr = [5, 8, 6, 7, 9, 10, 20, 30, 54, 12, 5, 6, 865, 4];
-
 // console.log(arr.indexOf(30));
 // console.log(arr.length);
 // console.log(arr.indexOf(arr.length));
@@ -216,12 +215,18 @@
 // console.log(arr.length);
 // console.log(arr.indexOf(arr.length));
 
+//  let arr = [23, 45, 67, 89, 23, 34];
+//  console.log(arr.indexOf((8)));
+//  console.log(arr.length);
+//  console.log(arr.indexOf(arr.length));
+
+
 // let arr = [5, 8, 6, 7, 9, 10, 20, 30, 6, 54];
-
 // console.log(arr.lastIndexOf(6));
-
 // let arr = [ 5, 8, 9, 4, 10, 23, 56, 78]
-// console.log(arr.lastIndexOf(56));
+// console.log(arr.lastIndexOf(8));
+// let arr = [2, 3, 7, 9, 7, 9];
+// console.log(arr.lastIndexOf(7))
 
 
 
@@ -328,9 +333,38 @@
 // console.log(newArr);
 
 // let str = "nidhi";
-// let makeArr = Array.from(str);
-// console.log(makeArr);
+// let makeArr = Array.from(str) 
+
+
 // let arr = [2, 4, 6];
 // let newArr = Array.from(arr, (x) =>{
 // return x + x;
 // });
+// console.log(makeArr);
+
+
+// let str = "nidhi";
+// let makeArr= Array.from(str)
+// console.log(makeArr);
+// let arr = [2, 4, 6]
+// let newArr = Array.from(arr,(x) =>{
+//     return x+x;
+// });
+// console.log(newArr)
+
+// let arr = [5, 10, 55, 22, 3];
+
+// arr.forEach((element, index, array) => {
+//   //   console.log(element);
+//   //   console.log(index);
+//   //   console.log(array);
+//   //   return element;
+// });
+// console.log(newArr);
+//  let arr=  [2, 5, 7, 9, 12, 34, 56 ]
+// arr. forEach  ((element, index, array) =>{
+//     console.log(index);
+// // return array;
+
+// });
+// // console.log(newArr);
