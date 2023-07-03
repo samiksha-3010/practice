@@ -89,8 +89,129 @@
 
 // ======================SOME METHOD
 
-let arr = [2, 4, 6, 8, 9, ];
-let someArr = arr.some((element) =>{
- return element > 3;
-})
-console.log(someArr);
+// let arr = [2, 4, 6, 8, 9, ];
+// let someArr = arr.some((element) =>{
+//  return element > 3;
+// })
+// console.log(someArr);
+
+
+// *FINDINDEX* =>  returns the index
+
+// const array1 = [5, 12, 8, 120, 44];
+// const isLastNumber = (element) => element > 110;
+// console.log(array1.findIndex(isLastNumber));
+
+
+// const array1 = [5, 6, 7, 8, 9, 134, 123] ;
+// const isLargeNumber = (element )=> element < 120 ;
+// console.log (array1.findIndex(isLargeNumber));
+
+
+// const  array1 = [ 23, 56, 12, 67, 23, 32];
+// const isLargeNumber = (element) => element< 67;
+// console.log(array1.findIndex(isLargeNumber));
+
+
+// *FOREACH* => executes a provided function once for each array element
+
+// const array1 = ['a', 'b', 'c'];
+// array1.forEach(element => console.log(element));
+
+
+//*JOIN* => returns a strings without any seperator
+
+// const elements = ['Fire', 'Air', 'Water'];
+// console.log(elements.join());
+
+
+// const element = [ 'fiar', 'air', 'water'];
+// console.log(element.join(0));
+
+
+
+//*MAP* => creates a new array
+
+// const array1 = [1, 4, 9, 16];
+// const map1 = array1.map(x => x * 2);
+// console.log(map1);
+
+
+
+//*REVERSE* => used to reverse an array
+
+// const array1 = ['one', 'two', 'three'];
+// console.log('array1:', array1);
+// const reversed = array1.reverse();
+// console.log('reversed:', reversed);            //output three two one
+
+// const array1 = [ 'input', 'output', 'index']
+// console.log('array1:', array1);
+// const reversed = array1.reverse();
+// console.log('reversed:', reversed);
+
+//*SORT* => sorts the array in ascending order
+
+// const months = ['March', 'Jan', 'Feb', 'Dec'];
+// months.sort();
+// console.log(months);
+
+
+// const weak = ['sunday', 'monday', 'tuesday', 'wedenesday'];
+// weak.sort();
+// console.log(weak);
+
+// const month =[ 'jan', 'feb', 'mar', 'dec']
+// month. sort();
+// console.log(month);
+
+
+//*SOME* => returns true or false value based on conditions
+
+// const array = [1, 2, 3, 4, 5];
+// const even = (element) => element % 2 === 0;
+// console.log(array.some(even));
+
+// const array = [1, 7, 3, 9, 5];
+// const even = (element) => element % 2 === 0;
+// console.log(array.some(even));
+
+ 
+
+
+// const  array = [2, 4, 6, 8,  10];
+// const even = (element ) => element % 3===0;
+//     console.log (array.some(even));
+
+
+//*SPLICE* => removes or replaces existing array
+
+// const months = ['Jan', 'March', 'April', 'June'];
+// months.splice(1, 0, 'Feb');
+// console.log(months);
+
+// months.splice(4, 1, 'May');
+// console.log(months);
+
+
+// const weak= [ 'month', 'june', 'july', 'dec'];
+// // weak.splice(1,0,'jaunary');
+// // console.log(weak);
+
+
+// weak.splice(2,1, 'may');
+// console.log(weak);
+
+//*SLICE* => returns a part of array which falls under start and end index nos. mentioned
+
+// const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+// console.log(animals.slice(2));
+
+// console.log(animals.slice(2, 4));
+
+// console.log(animals.slice(1, 5));
+
+const flowers = ['louts', 'rose', 'lily','hibiscuc', 'chemali' , 'chamapa', 'bela']
+// console.log(flowers.slice());
+
+console.log(flowers.slice(2,4))
