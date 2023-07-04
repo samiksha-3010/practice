@@ -211,7 +211,88 @@
 
 // console.log(animals.slice(1, 5));
 
-const flowers = ['louts', 'rose', 'lily','hibiscuc', 'chemali' , 'chamapa', 'bela']
-// console.log(flowers.slice());
+// const flowers = ['louts', 'rose', 'lily','hibiscuc', 'chemali' , 'chamapa', 'bela']
+// // console.log(flowers.slice());
 
-console.log(flowers.slice(2,4))
+// console.log(flowers.slice(2,4))
+
+
+// const ratings = [5, 4, 5];
+// let sum = 4;
+
+// const sumFunction = async (a, b) => a + b;
+
+// ratings.forEach(async (rating) => {
+//   sum = await sumFunction(sum, rating);
+// });
+
+// console.log(ratings);
+
+    //  ******using for each()on sprays arrays
+
+
+
+
+// const arraySparse = [1, 3, , 7];
+// let numCallbackRuns = 0;
+
+// arraySparse.forEach((element) => {
+//   console.log({ element });
+//   numCallbackRuns++;                    //notunderstood
+// });
+
+// console.log({ numCallbackRuns });
+
+// var x = 10;
+
+// function createFunction1() {
+//   const x = 20;
+//   return new Function("return x;"); // this `x` refers to global `x`
+// }
+
+// console.log(x)
+
+// myName = "Chris";
+
+// function logName() {
+//   console.log(myName);
+// }
+
+// logName();
+
+// var myName;
+
+
+// const bird = { species: "Kestrel" };
+// console.log(bird.species);
+
+// let myNumber = "74";
+// myNumber = Number(myNumber) + 5;
+
+// console.log(myNumber)
+
+let num1 = 4;
+num1++;
+console.log(num1)
+
+let num2 = 6;
+num2--;
+num2;
+console.log(num2)
+
+
+
+// const btn = document.querySelector("button");
+// const txt = document.querySelector("p");
+
+// btn.addEventListener("click", updateBtn);
+
+// function updateBtn() {
+//   if (btn.textContent === "Start machine") {
+//     btn.textContent = "Stop machine";
+//     txt.textContent = "The machine has started!";
+//   } else {
+//     btn.textContent = "Start machine";
+//     txt.textContent = "The machine is stopped.";
+//   }
+// }
