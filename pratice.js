@@ -120,18 +120,16 @@ var target = 93;
 //     }
 // }
 
-
-
-
-
 var res = []; // 1, 2,3,4
 var nums = [3,3,3,3,5,5,5,8,8,8,9]
 for (let i = 0; i < nums.length; i++) {
     if (nums[i] != nums[i + 1]) { //  nums[3] = 2,  nums[4] = 3
         res.push(nums[i])
+        
     }
 }
 console.log(res);
+
 
 
 
