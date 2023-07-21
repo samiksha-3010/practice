@@ -102,8 +102,157 @@
 // for (var i = 4; i> 2; i - 1){
 //  console.log(i)
 // }
-for(var i = 100; i >= 1 ; i = i - 15){
-    console.log(i)
-}
+// for(var i = 100; i >= 1 ; i = i - 15){
+//     console.log(i)
+// }
 
-for (var i = 100; i>= 1; i = i)
+// for (var i = 1; i<= 50; i = i + 2){
+//     console.log("hello",i)
+
+// }
+// for (var i = 1; i <= 100; i = i + 2) {
+//     console.log("Hello", i);
+// }
+
+// for (var i = 734; i <= 765; i ++) {
+//     console.log("Hello", i);
+// }
+// for (var i=10; i<34; i * 2){
+//     console.log("hello",i)
+// }
+// for (var i = 50; i <= 230; i = i * 2) {
+//     console.log("Hello", i);
+// }
+
+// for (var i = 5; i <= 1000; i = i ** 2) {
+//     console.log("Hello", i);
+// }
+
+// for (var i = 10; i<=1000; i= i ** 2){
+//     console.log("hello",i);
+// }
+
+
+// Q. Print number from 10 -1; 
+
+
+// for (var i = 14; i>= 1; i--){
+//     console.log(i)
+// }
+
+
+// for (var i = 100; i>= 45; i--){
+//     console.log(i)
+// }
+
+// for(var i = 100; i >= 1 ; i = i - 2){
+//     console.log(i)
+//}
+// for (var i = 200; i >= 1; i = i -2){
+//     console.log(i)
+
+// }
+
+// for(var i = 1000; i >= 1 ; i = i - 10){
+//     console.log(i)
+// }
+// for (var i = 100; i >= 1 ; i = i -20){
+//     console.log(i)
+// }
+
+
+
+// for(var i = 1000/2; i >= 1 ; i = i - 10){
+//     console.log(i)
+// }
+var remote = ["S", 'A', "B", "c", "y", "p", 87, 897, true];
+// // console.log(remote[0])
+// // console.log(remote[2])
+// // console.log(remote[7])
+// // console.log(remote[8])
+// // console.log(typeof(remote))
+
+// for (var i= 0; i< remote.length; i++){
+//     console.log(remote[i])
+// }
+// for (var i = 1000/2; i >= 1; i=i -10){
+//     console.log(i)
+// }
+
+// var num1=45
+// var num2=40
+//  var addition = num1 + num2
+//  console.log(addition)
+
+// var num1  =78
+// var num2  =18
+// var sub = num1- num2;
+// console.log(sub)
+
+// var num1 = 100;
+// var num2= 123;
+// var mul=  num1 * num2
+// console.log(mul)
+
+// var num1 = 12
+// var num2 = 82
+// var div = num1/ num2
+// console.log(div)
+
+// 
+
+
+// var i= 8;
+// i =  i + 1
+// i++;
+// i++;
+// console.log(i)
+
+// Conditional Statement
+
+// 1. if else 
+// 2. switch
+
+
+// 1. if else
+
+//     if (conditions) {
+//         code to be execute
+//         console.log("condition true")
+//     } else if (condtions second) {
+//         code to be execute
+//     console.log("condition true")
+//     }  else if (condtions second) {
+//             code to be execute
+//         console.log("condition true")
+//     }else {
+//         code to be execute
+//     console.log("condition false")
+//     }
+
+// Q. Check given number is lesser than 100 or 150 or 200;
+
+// var number = 20
+// console.log(number> 10)
+
+// var num1 = 34;
+// console.log(number> 70)
+
+var number = 10
+console.log(number == 10)
+
+var num = 100               
+
+// var number = 98763;
+// // console.log(number < 5)
+// if (number < 100) {
+//     console.log("Number is lesser than 100.")
+// } else if (number < 150) {
+//     console.log("Number is lesser than 150 and greater than 100")
+// } else if (number < 200) {
+//     console.log("Number is lesser than 200 and greter 150.....")
+// } else if (number < 98765) {
+//     console.log("Number is lesser than 98765.")
+// } else {
+//     console.log("Number is not Lesser than 100 nor 150")
+// }
