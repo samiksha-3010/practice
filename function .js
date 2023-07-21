@@ -238,10 +238,10 @@ var remote = ["S", 'A', "B", "c", "y", "p", 87, 897, true];
 // var num1 = 34;
 // console.log(number> 70)
 
-var number = 10
-console.log(number == 10)
+// var number = 10
+// console.log(number == 10)
 
-var num = 100               
+// var num = 100               
 
 // var number = 98763;
 // // console.log(number < 5)
@@ -255,4 +255,86 @@ var num = 100
 //     console.log("Number is lesser than 98765.")
 // } else {
 //     console.log("Number is not Lesser than 100 nor 150")
+// }
+
+// var number = 2376;
+// console.log(number<10000)
+// if(number < 100){
+//     console.log("Number is lessser than 100..")
+// }else if (number < 150){
+//     console.log("number is lesser than 150 and greater than 100....")
+// }else if (number < 200){
+//     console.log("number is lesser then 200 and greater than 150")
+
+// }
+// else if (number < 2376){
+//     console.log("number is greater than 2476" )
+// }else{
+//     console.log("number is not lesser than 100 or 150")
+// }
+
+// var num1 = 123;
+// var num2 = "123";
+
+// console.log(num1 == num2)
+// console.log(num1 === num2)
+
+// var  num1 = 127;
+// var num2 = "123"
+// console.log(typeof(num2))
+// console.log(num1== num2)
+
+// var num1 = 98;
+// console.log(num1 > 50 && num1 < 99 && num1 < 10)
+// console.log(num1 > 50 || num1 < 90 || num1 < 20)
+
+// var num1 = 38 
+// console.log(num1 > 20 && 36 && num1 < 10 )
+// console.log(num1 > 20|| 36 || num1 < 20)
+
+
+// var num1 = 59;
+// console.log(num1 > 23 && 36 && num1 > 10)
+// console.log(num1> 30 || 89 || num1 > 90)
+
+// var myName ; // Decleration
+// console.log(myName);
+// console.log(typeof(myName));
+
+// myName = "Samiksha" ; // assign
+// console.log(myName,"- again")
+
+
+// var myName;
+// console.log(myName)
+// console.log(typeof(myName))
+
+// myName = "samiksha"
+// console.log (typeof(myName))
+// console.log(myName, "again")
+
+// Array 
+// var hii = "Hello"
+// var kuchBhi = ["samiksha","XYZ",98765, true, "false",hii];
+// console.log(kuchBhi[0]);
+// console.log(kuchBhi.length)
+
+var samiksha = "nidhi"
+console.log(samiksha)
+var samiksha = ["samiksha", "nidhi", "annu", "false", "helllo", 98765]
+console.log(samiksha[4])
+console.log(samiksha.length)
+
+
+// var num1 = 1234;
+// var num2 = 9876;
+
+// function addition(num1, num2 ){
+//     console.log(num1 + num2)
+// }
+
+// var num1 = 2345;
+// var num2 = 1245;
+// function addition (num1, num2){
+//     console.log(num1 + num2)
 // }
