@@ -60,6 +60,50 @@
 // console.log(i)
 
 
-for (var i = 1; i <= 10; i++) {
-    console.log("Hello", i);
+// for (var i = 1; i <= 10; i++) {
+//     console.log("Hello", i);
+// }
+// for (var i =8; i<= 10; i++){
+//     console.log("samiksha",i)
+// }
+
+// for( var i= 5; i<10; i++ ){
+//     console.log("samiksha",i)
+
+//     for(var i= 0; i<12; i++)
+//     console.log(12,i)
+// }
+
+// for (var i = 5; i<10; i++){
+//     console.log(10,i)
+// }
+
+// for (var i=0; i<10; i++){
+//     console.log(2,i)
+// }
+
+// for (var i = 29; i>=12; i-- ){
+//     console.log(i)
+// }
+
+// for(var i = 10; i>=12; i--){
+//     console.log("samiksha",i)
+// }
+
+
+// for(var i = 10; i >= 1 ; i--){
+//     console.log(i)
+// }
+
+// for (var i = 15; i >= 10; i--){
+//     console.log(i)
+// }
+
+// for (var i = 4; i> 2; i - 1){
+//  console.log(i)
+// }
+for(var i = 100; i >= 1 ; i = i - 15){
+    console.log(i)
 }
+
+for (var i = 100; i>= 1; i = i)
