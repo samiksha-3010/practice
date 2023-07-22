@@ -156,6 +156,41 @@
 
 // console.log  ( fruits[0])
 
-const fruits = ["samiksa","pooja","shivani"];
-let fruit = fruit[0]
-console.log(fruits)
+// const fruits = ["samiksa","pooja","shivani"];
+// let fruit = fruit[0]
+// console.log(fruits)
+
+// const name = ['poohu', 'sami',]
+// let  fruit = name[1]
+// console.log(name)
+
+// // Q. Find multiplication of give two numbers by using function. 
+
+// var num3 = 9876;
+// var num4 = 5678;
+// function add( num3 = num4){
+//     console.log(num3+num4)
+   
+// }
+// add(num3+num4);
+
+// var num1 = 234;
+// var num2 = 236;
+// function dived (num1 = num2){
+//     console.log(num1/num2)
+// }
+// dived(num1/num2)
+
+// var num1 = 234;
+// var num2 = 156;
+// function sub(num1=num2){
+//     console.log(num1-num2)
+// }
+// sub(num1-num2)
+
+var num1 = 4;
+var num2 = 8;
+function mul(num1=num2){
+    console.log(num1*num2)
+}
+mul(num1*num2)
