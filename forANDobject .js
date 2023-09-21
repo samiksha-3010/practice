@@ -6,6 +6,19 @@
 // };
 // console.log(person.lastName)
 
+// const person ={
+//     firstName:"samiksha",
+//     lastName:"yadav",
+//     course:"Full Stack Devloper ",
+//     dueration:"6Month",
+//     adress:"Mumbai",
+//     playing:"badminton",
+//     hoby:"coding",
+//     skill:"Good Camunication Skill",
+
+// }
+// console.log(person)
+
 
 // const person = {
 //     firstName: "John",
@@ -37,15 +50,15 @@
 // console.log(j);
 // }
 
-// const fruits = [ "Apple", "Banana", "Orange"];
-// for (x of fruits){
-//     console.log(x);
-// }
+const fruits = [ "Apple", "Banana", "Orange"];
+for (x of fruits){
+    console.log(x);
+}
 
-// const fruits = ["samiksha", "Anika","Orange"];
-// for(  y of fruits){
-//     console.log(y)
-// }
+const fruit = ["samiksha", "Anika","Orange"];
+for(  y of fruit){
+    console.log(y)
+}
 
 
 
@@ -78,10 +91,10 @@
 
 
 
-// let str1 = "Hello ";
-// let str2 = "World!";
-// console.log(
-// str1+str2);
+let str1 = "Hello ";
+let str2 = "World!";
+console.log(
+str1+str2);
 
 const num1 = "Hello";
 const num2 = "World";

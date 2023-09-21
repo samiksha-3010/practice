@@ -7,19 +7,27 @@
 //   }, 3000);
 // }
 
-// async function prom() {
-//     let one = new Promise((resolve) => {
-//       setTimeout(() => {
-//         resolve("promise 1"); // execute 2nd
-//       }, 6000);
-//     });
+// function one (){
+//     setTimeout(() =>{
+//         console.log("one")
 
-//     function one(){
-//         setTimeout(() =>{
-//             console.log("one");
-//          } ,3000);
-//     };
+//     },3000)
+// }
 
+async function prom() {
+    let one = new Promise((resolve) => {
+      setTimeout(() => {
+        resolve("promise 1"); // execute 2nd
+      }, 6000);
+    });
+
+     function one(){
+        setTimeout(() =>{
+            console.log("one");
+         } ,3000);
+    };
+
+}
 
 
     // find odd number
@@ -30,12 +38,35 @@
 //   let newOdd = [];
 //   for (let i = 0; i < odd.length; i++) {
 //     if (odd[i] % 2 != 0) {
-//       //   console.log(odd[i]);
+//         console.log(odd[i]);
 //       newOdd.push(odd[i]);
 //     }
 //   }
-
 //   return newOdd.length;
+// }
+// console.log(oddNum(array))
+
+// var array = [2,3,4,5,78,90,12,34]
+// function oddNum(odd){
+//   let newOdd = []
+//   for(let i= 0;i< odd.length; i++){ 
+//   if(odd[i]- 5 != 0){
+//     console.log(odd[i])
+//     newOdd.push(odd[i])
+//   }
+// }
+// return newOdd.length;
+// }
+// console.log(oddNum(array))
+// var array = [2,3,4,5,67,8,23]
+// function newodd (odd) {
+//   let newodd = []
+//   for (let i = 0; i<odd.length; i++){
+//     if(odd[i]% 2 !=0){
+//       newodd.push(odd[i])
+//     }
+//   }
+//   return newodd.length
 // }
 
 // console.log(oddNum(array));
@@ -111,7 +142,23 @@
 // }
 // var e = findEvenNum (array);
 // console .log(e);
+// var arrry1 = [2,3,4,5,6,7,8];
+// var array2 = [8,6,5,4,9,23,12]
+// function findEvenNum(array){
+//   let newEven = []
+//   for(let i=0;i<array.length; i++){
+//     if(array[i]% 2==0){
+//       console.log(newEven);
+//       console.log(array(i))
+//       newEven.push(even[i]);
 
+//     }
+//   }
+//   console.log(newEven)
+//   return newEven.length
+// }
+// var e = findEvenNum(array)
+// console.log(e)
 
 // subtraction of three number and find target
 
@@ -187,14 +234,14 @@ var array  = [23, 56, 34, 23, 56, 89, 10];
 //     for ( k= j+1; k< array .length; k++){
 //         if (array [i] , + array [j], + array[k], "+", target)
 //         flag =  true 
-//         return flag = true {
-            
+//         return flag = true {          
 //         }
 //     }
 //         }
-
 //     }
 // if (flag === false ){
 //     console.log()
 // }
 // }
+
+

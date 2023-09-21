@@ -1,27 +1,38 @@
     //    ===========map=============
     // let mapArr = [ 3, 4, 7, 9, 6, 3];
     //   let newMap = mapArr.map((element, index, array)  => {
-    //     // return element;
-    //     // return index;
-    //     // return array;
-    //     //  return element * 2;
-    //     //  return index * 2;
+    //     return element;
+    //     return index;
+    //     return array;
+    //      return element * 2;
+    //      return index * 2;
 
     //   });
-    // // 
-    
     // var num1 = [ 12,34,65,]
     // console.log(num1[0]);
+
+    // let mapArr = [2,3,4,5,6,7,8,9]
+    // let newMap = mapArr.map((element,index)=>{
+    //     return index;
+       
+    // })
+    // console.log(mapArr[2])
+
+    // let mapArr = [2,3,4,5,6,7,8,9]
+    // let newMap = mapArr.map((element,index)=>{
+    //     return index;
+    // })
+    // console.log(mapArr[8])
    
 
 //       let mapArr = [3,4 , 5, 7, 8];
 //       let newMap = mapArr.map ((element, index, array) => {
-//         return element;
-//         return index;
-//         return array;
-//         return element * 2;
-//         return index * 2
-//         return array * 2;
+//         // return element *3;
+//         return index * 9;
+//         // return array;
+//         // return element * 2;
+//         // return index * 2
+//         // return array * 2;
 //       })
 // console.log(newMap);
 
@@ -29,33 +40,38 @@
 
 //   let filterArr = [2, 3, 5, 6, 7, 9, 3];
 //   let filterArray  =  filterArr.filter ((element ,index) => {
-//     return index  > 10;
-//     return element; 
+//     // return index  + 7;
+// //     return element; 
 //    return index > 6;
 //   })
 //   console.log(filterArr);
 
 
-// let filtArr = [5, 8, 68, 4, 3, 11, 54, 100];
+let filtArr = [5, 8, 68, 4, 3, 11, 54, 100];
 
-// let filterArray = filtArr.filter((element, index) => {
-//     // return element  > 10;
-//     // return element;
-//     // return index   > 2;
-// });
+let filterArray = filtArr.filter((element, index) => {
+    // return element  > 10;
+    // return element;
+    return index   > 2;
+});
 
-// console.log(filterArray);
+console.log(filterArray);
 
 // ======reduce======
 
-// let redVal = [ 2, 3, 5, 6, 8, 9, ];
-//  let reducingArr = redVal.reduce((acc, curr) => {
-//     return acc + curr;
-//     return acc;
-//     return curr;
-//  } , 10)
-// console.log(reducingArr);
+let redVal = [ 2, 3, 5, 6, 8, 9, ];
+ let reducingArr = redVal.reduce((acc, curr) => {
+    return acc + curr;
+    // return acc;
+    // return curr;
+ } , 14)
+console.log(reducingArr);
 
+let redValue = [2,3,4,5,6,7,8,9];
+let reducingArray = redValue.reduce((acc,currentValue)=>{
+    return acc+currentValue
+},10)
+console.log(reducingArray)
 
 // let redVal = [2, 6, 8, 4, 10, 9, 22, 74];
 
@@ -72,19 +88,19 @@
 
 // ****************MAP FILTER REDUCE CHAINING
 
-// let allInOne = [2,3,4,6,8,9,5];
-// let newArr = allInOne
-// .map((e) => {
-//     return e + 5;
-// })
-// .filter((e) => {
-//     return e < 10;
-// })
-//  .reduce((acc , curr ) => {
-//     return acc + curr;
+let allInOne = [2,3,4,6,8,9,5];
+let newArr = allInOne
+.map((e) => {
+    return e + 5;
+})
+.filter((e) => {
+    return e < 10;
+})
+ .reduce((acc , curr ) => {
+    return acc + curr;
 
-//  })
-//  console.log(newArr);
+ })
+ console.log(newArr);
 
 
 // let allInOne = [2, 3, 5, 4, 9, 2, 4, 6];
@@ -105,15 +121,15 @@
 // ***********************FOR EACH
 // is not chainable
 
-// let arr = [5, 10, 55, 22, 3];
+let arr = [5, 10, 55, 22, 3];
 
-// arr.forEach((element, index, array) => {
-//     console.log(element);
-//     console.log(index);
-//     console.log(array);
-//     return element;
-// });
-// console.log(newArr);
+arr.forEach((element, index, array) => {
+    console.log(element);
+    console.log(index);
+    console.log(array);
+    return element;
+});
+console.log(newArr);
 
 // let arr = [ 5,6,7,8,9];
 // arr.forEach((element , index,array) => {
@@ -145,8 +161,8 @@
 // })
 // console.log(newMap);
 
-    // var num1 = [ 12,34,65,]
-    // console.log(num1[0]);
+    var num1 = [ 12,34,65,]
+    console.log(num1[3]);
    
 
     // var num2 = [23, 67, 56, 34]
@@ -159,11 +175,11 @@
 // let newMap = mapArr.map((index) =>{
 // return index;
 // });
- // console.log(newMap);
+//  console.log(newMap);
 
 // let mapArr = [ 23, 56, 78, 12, 45, 34 ];
 // let  newMap = mapArr.map((array)=>{
-// return array*6;  //mul
+// return array+4;  //mul
 // });
 // console.log(newMap);
 
@@ -179,23 +195,23 @@
 // }) 
 //  console.log(newMap)
 
-// let mapArr = [234, 567,234,456,];
-// let newMap = mapArr.map((element) =>{
-//     return  element /4;
-// })
-// console.log(newMap);
+let mapArr = [234, 567,234,456,];
+let newMap = mapArr.map((element) =>{
+    return  element /4;
+})
+console.log(newMap);
 
-// var num1 =  [ 23, 56, 89, 90,12];
-// console.log(num1[3]);
+var num1 =  [ 23, 56, 89, 90,12];
+console.log(num1[3]);
 
-// var num2 = ["samiksha"," Anikja", "nidhi"];
-// console.log(num2[2])
+var num2 = ["samiksha"," Anikja", "nidhi"];
+console.log(num2[2])
 
-// var num3 = ["samiksha", "annnu", "vibhu"];
-// console.log(num3[0]);
+var num3 = ["samiksha", "annnu", "vibhu"];
+console.log(num3[0]);
 
-// var num4 = [ "product", "smailer","vibhu"];
-
+var num4 = [ "product", "smailer","vibhu"];
+console.log(num3[1]);
 
 
 // =======filter==========
@@ -211,7 +227,7 @@
 
 
 //  let filterArr = [2, 3, 5, 7, 9, 90];
-//  let  filterArray = filterArr. filter((index) => {
+//  let  filterArry = filterArry. filter((index) => {
 //     return index +
 //     10;
 //  });
