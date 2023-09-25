@@ -8,12 +8,12 @@
 //     console.log(element = element)               ///foreach loop 
 // })
 
-//  var num2 =[23, 45, 67, 89, 12, 34]
-//  for (var i = 0; i<num2.length; i++){
-//     var j = 0; i<num2.length;j++
-//     var k = 0; i<num2.length;k++
-//     console.log(num2[i])
-//  }
+  var num2 =[23, 45, 67, 89, 12, 34]
+ for (var i = 0; i<num2.length; i++){
+    var j = 0; i<num2.length;j++
+    var k = 0; i<num2.length;k++
+    console.log(num2[i])
+ }
 
 // concat maethd
 
@@ -26,7 +26,7 @@
 // console.log(filterFunction)
 
 // const arr1 = [1,3, 2,5, 7,8,9,10]
-// const newArr = arr1.filter((val) =>val !=3)
+// const newArr = arr1.filter((val) =>val !=8)
 // console.log(newArr)
 
 
@@ -36,15 +36,15 @@
 //         age: "21"
 //     }
 // ]
-// console.log(object)
+// console.log(obj)
 
-const array = [2,3,4,5,6,7,8,9,]
-const newArr = array.find (element => element)
-console.log(newArr);
+// const array = [2,3,4,5,6,7,8,9,]
+// const newArr = array.find (element => element)
+// console.log(newArr);
 
-const arr1 = [2, 3, 4, 5, 6,7 ,8, 9,10]
-const map = arr1.map(x=>x*2)
-    console.log(map);
+// const arr1 = [2, 3, 4, 5, 6,7 ,8, 9,10]
+// const map = arr1.map(x=>x*2)
+//     console.log(map);
 
  
 

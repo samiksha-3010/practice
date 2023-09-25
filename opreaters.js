@@ -8,9 +8,9 @@
 // // console.log("a++",- ++a)
 
 
-// let x=3;
-// let y=5;
-// console.log(x<y || x ==5);
+let x=3;
+let y=5;
+console.log(x<y || x ==5);
 
 
 // var num1 = 1234;

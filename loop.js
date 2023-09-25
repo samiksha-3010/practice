@@ -1,6 +1,4 @@
 // var array = [3,45,6,7,7];
-
-
 // for( var i =0;i<array.length;i++  ){
 //     console.log(array[i])
 
@@ -135,29 +133,60 @@ var userAge = 34;
 //   console.log("you are not allow the driving lincee....")
 // }
 
-var myName  =  "samiksha"    // Decleration
-console.log(myName);
-console.log(typeof(myName));
+// 
 
-myName = "Samiksha" ; // assign
-console.log(myName,"- again")
+
+
+
+
+const arr = [12,14,55,45,86]
+for (let i=0;i<arr.length;i++){
+  console.log(arr[i])
+}
+
+// for of loop shortcut way of above example
+for(element of arr){
+  console.log(`the first elementis ${element}`)
+
+}
+// for in loop it give you key of array array is basically an object so it return key of arr 0 is key fo 12 if you want value just give [name of array]
+
+for (item in arr){
+  console.log(item)
+
+}
+//this is foreach method 
+arr.forEach((element)=>{
+  console.log(element+1)
+})
+
+//map method return new array you can give index and array
+ let a =arr.map((items,index,array)=>{
+  console.log(`${index}:${items+5}`)
+  return items+3
+
+ })  
+ console.log(a)  
  
-var myname = "samiksha";
-console.log (myname);
-     console.log(typeof(myname));
-     var myname = "samiksha";
-     console.log(myname, "-again")
-                                    // =====arrrayMethod======
+//  filter Method
 
-     var hii = "Hello"
-var kuchBhi = ["Swaraj","XYZ",98765, true, "false",hii];
-console.log(kuchBhi[0]);
-console.log(kuchBhi.length)
+let b=arr.filter((items)=>{
+  return items< 20
 
-var hii = "Hello";
-console.log
+})
+console.log(b) //12,14
 
-                           
-                                                     
+//  reduce method 
 
+let c = arr.reduce((h1,h2)=>{
+  return h1+h2
+})
+console.log(c)//212
+
+const reduce=(h1,h2)=>{
+  return h1+h2
+}
+
+const d = arr.reduce(reduce)
+console.log(d) //212
 

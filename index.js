@@ -71,7 +71,7 @@
 //     console.log("Hello Mr. " + name);
 
 // }
-// var name = 'samiksha yadav';
+// var name = 'samiksha yadav;
 // var gender = "male";
 
 // if(gender = "male"){

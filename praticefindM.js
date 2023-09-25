@@ -44,7 +44,7 @@
 
 // const array1 = [ 'samiksha', 'poohu', 'pooja', 'shivani', 'mwghali']
 // const  map1 = array1.map ( )
-// confirm.log (map1)
+// console.log (map1)
 
 
 // const array = [15, 16, 17, 18, 19];
@@ -156,11 +156,19 @@
 //  })
 //  console.log(newValue)
 
- const arr2 = [23, 45, 67, 89, 12]
- const newValue = arr2.reduce((prev, cuurnt) =>{
-   return prev*cuurnt
- })
- console.log(newValue)
+//  const arr2 = [23, 45, 67, 89, 12]
+//  const newValue = arr2.reduce((prev, cuurnt) =>{
+//    return prev*cuurnt
+//  })
+//  console.log(newValue)
+
+
+var createHelloWorld = function() {
+  return function() {
+      return "Hello World";
+  }
+};
+console.log("function")
 
 
  
