@@ -92,37 +92,37 @@
 
 // sumMultiple.js
 
-let n = 10;
+// let n = 10;
 
-var sumOfMultiples = function (n) {
-  let res = 0;
-  for (let i = 1; i <= n; i++) {
-    if (i % 3 === 0 || i % 5 === 0 || i % 7 === 0) {
-      res += i;
-      //   console.log(res);
-    }
-  }
+// var sumOfMultiples = function (n) {
+//   let res = 0;
+//   for (let i = 1; i <= n; i++) {
+//     if (i % 3 === 0 || i % 5 === 0 || i % 7 === 0) {
+//       res += i;
+//       //   console.log(res);
+//     }
+//   }
 
-  return res;
-};
+//   return res;
+// };
 
-console.log(sumOfMultiples(n));
+// console.log(sumOfMultiples(n));
 
 
-// Sumof1array
+// // Sumof1array
 
-let nums = [1, 2, 3, 4];
+// let nums = [1, 2, 3, 4];
 
-let newArr = [];
+// let newArr = [];
 
-let sum = 0;
+// let sum = 0;
 
-for (let i = 0; i < nums.length; i++) {
-  sum += nums[i];
-  newArr.push(sum);
-}
+// for (let i = 0; i < nums.length; i++) {
+//   sum += nums[i];
+//   newArr.push(sum);
+// }
 
-console.log(newArr);
+// console.log(newArr);
 
 //solution 2 function based
 
@@ -158,5 +158,61 @@ console.log(newArr);
 
 // console.log(singleNumber(nums));
 
+
+
+// print the patrren 4 start 
+// *
+// **
+// ***
+// ****
+//  OUTOuT
+  //   public= class Main {
+  //     public= static .voidmain(string[]args){
+  // System.out.println("*")
+  // System.out.println("*")
+  // System.out.println("*")
+  // System.out.println("*")
+  //     }
+  //   } 
+
+
+  // print 3 star Quiz
+  // *
+  // **
+// OUTPUT
+  // System.out.println("*/n**");
+  // System.out.println("**/n*");
+  // System.out.println("***/n");
+
+
+// Take 2 varibles "a" &"b" and print the sum
+
+
+// if 3 is a even number "Bazinga"
+// if else
+
+if(3%2 == 0){
+  console.log("Bazinga")
+}
+
+
+// print the greeating
+// 1 hello 2 namestai 3 Bonjour
+// if else
+//Switch
+//Break
+ 
+
+
+switch(button){
+  case 1 : console.log("Hello");
+  break;
+  case 1 : console.log("Namstai");
+  break;
+  case 1 : console.log("Banjor");
+  break;
+  default: console.log("Invalid Button");
+ 
+}
 
 
