@@ -24,7 +24,7 @@
 //      function one(){
 //         setTimeout(() =>{
 //             console.log("one");
-//          } ,3000);
+//          },3000);
 //     };
 
 // }
@@ -45,6 +45,8 @@
 //   return newOdd.length;
 // }
 // console.log(oddNum(array))
+
+
 
 // var array = [2,3,4,5,78,90,12,34]
 // function oddNum(odd){

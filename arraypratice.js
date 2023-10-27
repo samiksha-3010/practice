@@ -232,7 +232,6 @@
 
 // ***********************FILL
 // array.fill(value, start, end);
-
 // let arr = [10, 20, 30, 6, 54];
 
 // let newArr = arr.fill("hi");
