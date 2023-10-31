@@ -134,4 +134,4 @@ function addition() {
     var add = num1 + num2;
   
 }
-console.log(add, "addition")
+console.log(add, "addition") 

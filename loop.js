@@ -62,8 +62,8 @@
 
   // var  num1 = 123;
   // var num2 = 123;
-  //   console.log (num1==num2);
-  //   console.log (num1 ===num2);                       
+  //   // console.log (num1==num2);
+  //   console.log (num1 === num2);                       
       
 
   //   var  num1 = 98;

@@ -2,11 +2,10 @@
     // let mapArr = [ 3, 4, 7, 9, 6, 3];
     //   let newMap = mapArr.map((element, index, array)  => {
     //     return element;
-    //     return index;
-    //     return array;
-    //      return element * 2;
-    //      return index * 2;
-
+    //     // return index;
+    //     // return array;
+    //     //  return element * 2;
+    //     //  return index * 2;
     //   });
     // var num1 = [ 12,34,65,]
     // console.log(num1[0]);
@@ -47,31 +46,31 @@
 //   console.log(filterArr);
 
 
-let filtArr = [5, 8, 68, 4, 3, 11, 54, 100];
+// let filtArr = [5, 8, 68, 4, 3, 11, 54, 100];
 
-let filterArray = filtArr.filter((element, index) => {
-    // return element  > 10;
-    // return element;
-    return index   > 2;
-});
+// let filterArray = filtArr.filter((element, index) => {
+//     // return element  > 10;
+//     // return element;
+//     return index   > 2;
+// });
 
-console.log(filterArray);
+// console.log(filterArray);
 
-// ======reduce======
+// // ======reduce======
 
-let redVal = [ 2, 3, 5, 6, 8, 9, ];
- let reducingArr = redVal.reduce((acc, curr) => {
-    return acc + curr;
-    // return acc;
-    // return curr;
- } , 14)
-console.log(reducingArr);
+// let redVal = [ 2, 3, 5, 6, 8, 9, ];
+//  let reducingArr = redVal.reduce((acc, curr) => {
+//     return acc + curr;
+//     // return acc;
+//     // return curr;
+//  } , 14)
+// console.log(reducingArr);
 
-let redValue = [2,3,4,5,6,7,8,9];
-let reducingArray = redValue.reduce((acc,currentValue)=>{
-    return acc+currentValue
-},10)
-console.log(reducingArray)
+// let redValue = [2,3,4,5,6,7,8,9];
+// let reducingArray = redValue.reduce((acc,currentValue)=>{
+//     return acc+currentValue
+// },10)
+// console.log(reducingArray)
 
 // let redVal = [2, 6, 8, 4, 10, 9, 22, 74];
 
@@ -88,19 +87,19 @@ console.log(reducingArray)
 
 // ****************MAP FILTER REDUCE CHAINING
 
-let allInOne = [2,3,4,6,8,9,5];
-let newArr = allInOne
-.map((e) => {
-    return e + 5;
-})
-.filter((e) => {
-    return e < 10;
-})
- .reduce((acc , curr ) => {
-    return acc + curr;
+// let allInOne = [2,3,4,6,8,9,5];
+// let newArr = allInOne
+// .map((e) => {
+//     return e + 5;
+// })
+// .filter((e) => {
+//     return e < 10;
+// })
+//  .reduce((acc , curr ) => {
+//     return acc + curr;
 
- })
- console.log(newArr);
+//  })
+//  console.log(newArr);
 
 
 // let allInOne = [2, 3, 5, 4, 9, 2, 4, 6];
@@ -121,15 +120,15 @@ let newArr = allInOne
 // ***********************FOR EACH
 // is not chainable
 
-let arr = [5, 10, 55, 22, 3];
+// let arr = [5, 10, 55, 22, 3];
 
-arr.forEach((element, index, array) => {
-    console.log(element);
-    console.log(index);
-    console.log(array);
-    return element;
-});
-console.log(newArr);
+// arr.forEach((element, index, array) => {
+//     console.log(element);
+//     console.log(index);
+//     console.log(array);
+//     return element;
+// });
+// console.log(newArr);
 
 // let arr = [ 5,6,7,8,9];
 // arr.forEach((element , index,array) => {
@@ -161,8 +160,8 @@ console.log(newArr);
 // })
 // console.log(newMap);
 
-    var num1 = [ 12,34,65,]
-    console.log(num1[3]);
+    // var num1 = [ 12,34,65,]
+    // console.log(num1[3]);
    
 
     // var num2 = [23, 67, 56, 34]
@@ -195,23 +194,23 @@ console.log(newArr);
 // }) 
 //  console.log(newMap)
 
-let mapArr = [234, 567,234,456,];
-let newMap = mapArr.map((element) =>{
-    return  element /4;
-})
-console.log(newMap);
+// let mapArr = [234, 567,234,456,];
+// let newMap = mapArr.map((element) =>{
+//     return  element /4;
+// })
+// console.log(newMap);
 
-var num1 =  [ 23, 56, 89, 90,12];
-console.log(num1[3]);
+// var num1 =  [ 23, 56, 89, 90,12];
+// console.log(num1[3]);
 
-var num2 = ["samiksha"," Anikja", "nidhi"];
-console.log(num2[2])
+// var num2 = ["samiksha"," Anikja", "nidhi"];
+// console.log(num2[2])
 
-var num3 = ["samiksha", "annnu", "vibhu"];
-console.log(num3[0]);
+// var num3 = ["samiksha", "annnu", "vibhu"];
+// console.log(num3[0]);
 
-var num4 = [ "product", "smailer","vibhu"];
-console.log(num3[1]);
+// var num4 = [ "product", "smailer","vibhu"];
+// console.log(num3[1]);
 
 
 // =======filter==========
@@ -232,3 +231,39 @@ console.log(num3[1]);
 //     10;
 //  });
 //  console.log(filterArr);
+// #include<stdio.h>
+
+// int main(){
+//     int n;
+//     printf("enter the value of n/n")
+//     scanf("%d,&n")
+//     for(int i=0; i<n;i++)
+// {  
+//    for(int j =0; j<i+1; j++) 
+//    {
+//     printf("*")
+//    }
+//    printf("/n")
+// }
+// return 0;
+
+
+main ();
+{
+
+    int = i, j;
+    for(i =0; i<5; j++)
+    { 
+  
+    for(j =1; j<5; j++){
+        if() {
+
+        
+        printf("*");
+     } else
+        printf("");
+    }
+    printf("/n");
+
+}
+}

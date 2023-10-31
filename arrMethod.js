@@ -271,28 +271,29 @@
 
 // console.log(myNumber)
 
-let num1 = 4;
-num1++;
-console.log(num1)
+// let num1 = 4;
+// num1++;
+// console.log(num1)
 
-let num2 = 6;
-num2--;
-num2;
-console.log(num2)
+// let num2 = 6;
+// num2--;
+// num2;
+// console.log(num2)
 
 
 
-const btn = document.querySelector("button");
-const txt = document.querySelector("p");
+// const btn = document.querySelector("button");
+// const txt = document.querySelector("p");
 
-btn.addEventListener("click", updateBtn);
+// btn.addEventListener("click", updateBtn);
 
-function updateBtn() {
-  if (btn.textContent === "Start machine") {
-    btn.textContent = "Stop machine";
-    txt.textContent = "The machine has started!";
-  } else {
-    btn.textContent = "Start machine";
-    txt.textContent = "The machine is stopped.";
-  }
-}
+// function updateBtn() {
+//   if (btn.textContent === "Start machine") {
+//     btn.textContent = "Stop machine";
+//     txt.textContent = "The machine has started!";
+//   } else {
+//     btn.textContent = "Start machine";
+//     txt.textContent = "The machine is stopped.";
+//   }
+// }
+
