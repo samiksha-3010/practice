@@ -248,22 +248,3 @@
 // return 0;
 
 
-main ();
-{
-
-    int = i, j;
-    for(i =0; i<5; j++)
-    { 
-  
-    for(j =1; j<5; j++){
-        if() {
-
-        
-        printf("*");
-     } else
-        printf("");
-    }
-    printf("/n");
-
-}
-}

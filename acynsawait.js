@@ -153,7 +153,6 @@
 //       console.log(newEven);
 //       console.log(array(i))
 //       newEven.push(even[i]);
-
 //     }
 //   }
 //   console.log(newEven)
@@ -264,7 +263,7 @@
 // let target = 50;
 
 
-// let array = [10, 20, 30, 15, 45, 2, 9, 5]; // by adding 2 number
+//  let array = [10, 20, 30, 15, 45, 2, 9, 5]; // by adding 2 number
 
 
 // for (i = 0; i< array.length; i++){
@@ -297,11 +296,11 @@
 // }) 
 
 // console.log(newArray)
-let arr = [12,34,56,78,12 ]
-let mapping = arr.map((val)=>{
-    if(val <=50){
-        return val
-    }
-})
+// let arr = [12,34,56,78,12 ]
+// let mapping = arr.map((val)=>{
+//     if(val <=50){
+//         return val
+//     }
+// })
 
-console.log(mapping)
+// console.log(mapping)

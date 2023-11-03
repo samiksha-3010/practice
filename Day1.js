@@ -26,7 +26,7 @@
 //     console.log("Sum is ",count)  /// add is 
 // }
 
-const number = [12,34,56,78,90,12]
+// const number = [12,34,56,78,90,12]
 // {
 //     let max = []
 //     let count = 1
