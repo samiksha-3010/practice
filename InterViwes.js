@@ -145,8 +145,8 @@ const reverseString=(str)=>{
 console.log(reverseString("butter"))
 
 
-// How to polindram in java Script?
-//madam
-// a word vrese or sentence or a number that reads same backword or faorword
+
+
+
 
 

@@ -44,22 +44,5 @@ for (var i=10;i > 1; i-=5){
 	console.log(number[i])
 }
 
-//  find number from given renge whic are odd
-// var count = 0
-// for (var i =23; i<=45; i++){
-// 	if(i % 2 !=0){
-// 		count ++;
-// 		// console.log(i)
-// 	}
-// }
-// console.log(count)
 
-var oddcount = 0;
-var evencount = 0;
-for(var i=23; i<=45;i++){
-
-}
-
-// var array = [1,2,3,4,5,6,7,8,23,43,65,76,24,12,34]
-// var target= 34
 
