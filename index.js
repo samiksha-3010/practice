@@ -112,16 +112,16 @@
 //     console.log("Please inter valid percentge");
 
 // }
-//  var time = 9;
+ var time = 12;
 
-// if (time<10){
-//     console.log("good morning");
-// }
-// else if (time<20){
-//     console.log("good day");
-// }
-// else {
-//     console.log("good evening");
+if (time<10){
+    console.log("good morning");
+}
+else if (time<20){
+    console.log("good day");
+}
+else {
+    console.log("good evening");
 
-// }
+}
 

@@ -1,23 +1,35 @@
-<script>
-    const inputNum=prompt("please Enter Number")
-if(inputNum==1){
-console.log(`${number}is not prime neither composite`)
-}else if(number>1){
-    console.log(` prime number of${number} is not poosible`)
-}else{
-    for(let i=2;i<=number;i++){
-        if(number%i==0){
-            var result =`${number} is not prime number`
+ <!-- Prime Number in javaScript
+ prime number are those which are devided by itself or num 1 -->
 
-        }else{
-            var result =`${number} is not prime number`
+<script>
+//     const inputNum=prompt("please Enter Number")
+// if(inputNum==1){
+// console.log(`${number}is not prime neither composite`)
+// }else if(number<1){
+//     console.log(` prime number of${number} is not poosible`)
+// }else{
+//     for(let i=2;i<=number;i++){
+//         if(number%i==0){
+//             var result =`${number} is not prime number`
+
+//         }else{
+//             var result =`${number} is not prime number`
  
-        }
-    }
-}
+//         }
+//     }
+//     console.log(result)
+// }
 
 // how to find vowels from string in java script
 
 
-
+const reverseString=(str)=>{
+    var strToArray=str.split("")
+    return strToArray
+    var arrReverse=strToArray.reverse()
+    return strToArray
+    var strReverse=arrReverse.join("")
+    return strReverse
+}
+console.log(reverseString("butter"))
 </script>

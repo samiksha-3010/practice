@@ -126,13 +126,27 @@
 //  for Example : factorical og 5 is equal to 5!=1*2*3*4*5*=120
 //  factorical of nagative number is not poosible
 
-const inputNum=prompt("please Enter Number")
-var fact=1;
-if(inputNum<0){
-    console.log(`Factorical of ${inputNum} is not possible`)
+// const inputNum=prompt("please Enter Number")
+// var fact=1;
+// if(inputNum<0){
+//     console.log(`Factorical of ${inputNum} is not possible`)
 
-}else{
-    for(let i=1;i<=inputNum;i++)
-    fact=fact*1
+// }else{
+//     for(let i=1;i<=inputNum;i++)
+//     fact=fact*1
+// }
+// console.log(`Factorical of ${inputNum}is ${fact}` )
+
+const reverseString=(str)=>{
+    var strToArray=str.split("")
+    return strToArray
+
 }
-console.log(`Factorical of ${inputNum}is ${fact}` )
+console.log(reverseString("butter"))
+
+
+// How to polindram in java Script?
+//madam
+// a word vrese or sentence or a number that reads same backword or faorword
+
+
