@@ -1,6 +1,10 @@
-// const arrNumber = [2,3,4,5,6,78,3,3,9]
+// const arrNumber = [2,3,4,5,6,78,3,3,9,9]
 // const duplcates = arrNumber.filter((ele,index,arr)=>arr.indexOf(ele)!==index)
-// console.log(duplcates)
+// console.log(duplcates) 
+
+const arrayFruits = ["orange", "bannana","bannana","orange","apple","grapes","grapes"]
+const duplcates = arrayFruits.filter((ele,index,array)=>array.indexOf(ele)!==index) 
+console.log(duplcates)
 
 
 // const arrNumber = [1,2,3,4,5,6,7] 
@@ -137,12 +141,12 @@
 // }
 // console.log(`Factorical of ${inputNum}is ${fact}` )
 
-const reverseString=(str)=>{
-    var strToArray=str.split("")
-    return strToArray
+// const reverseString=(str)=>{
+//     var strToArray=str.split("")
+//     return strToArray
 
-}
-console.log(reverseString("butter"))
+// }
+// console.log(reverseString("butter"))
 
 
 
