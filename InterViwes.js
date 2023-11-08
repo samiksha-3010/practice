@@ -2,22 +2,28 @@
 // const duplcates = arrNumber.filter((ele,index,arr)=>arr.indexOf(ele)!==index)
 // console.log(duplcates) 
 
-const arrayFruits = ["orange", "bannana","bannana","orange","apple","grapes","grapes"]
-const duplcates = arrayFruits.filter((ele,index,array)=>array.indexOf(ele)!==index) 
-console.log(duplcates)
+// const arrayFruits = ["orange", "bannana","bannana","orange","apple","grapes","grapes"]
+// const duplcates = arrayFruits.filter((ele,index,array)=>array.indexOf(ele)!==index) 
+// console.log(duplcates)
+
+
+// const arrayVeg = [ "potato","onion","tomato","carrot","chill","pupmkin","tomato"]
+// const duplcates = arrayVeg.filter((ele,index,array)=>array.indexOf(ele)!==index)
+// console.log(duplcates)  // romve the duplicate string
 
 
 // const arrNumber = [1,2,3,4,5,6,7] 
-// const arrNumber=[2,34,56,78,90]
+// // const arrNumber=[2,34,56,78,90]
 
 // const maxFunction=(arr)=>{
 //     return arr.reduce(function(pre,cur){
 //         return pre>cur?pre:cur
 //     })
 // }
-// console.log(maxFunction(arrNumber))
+// console.log(maxFunction(arrNumber)) 
 
-// const arrNumber=[2,34,56,78,90]
+
+// const arrNumber=[2,34,56,78,90,1]
 
 // const minFunction=(arr)=>{
 //     return arr.reduce(function(pre,cur){
@@ -26,6 +32,25 @@ console.log(duplcates)
 // }
 // console.log(minFunction(arrNumber))
 
+// const word =["a","b","c","d","e"]
+// const minFunction=(arr)=>{
+//     return arr.reduce(function(pre,cur){
+//         return pre<cur?pre:cur
+//     })
+// }
+// console.log(minFunction(word))
+
+// const word = ["a","b","c","d","e"];
+// const maxFunction=(arr)=>{
+//     return arr.reduce(function(pre,cur){
+//     return pre<cur?pre:cur
+//     })
+// }
+// console.log(maxFunction(word))
+
+// var a="sami";
+// var b="sami"
+// console.log(a==b)
 
 // var x=4
 // var y="4";
@@ -48,6 +73,8 @@ console.log(duplcates)
 //     return(SecondLargestValue)
 // }
 // console.log(largestValue(intArray))
+
+
 
 // what is the diffrece between Filter()and find method in javascript
 
@@ -75,11 +102,10 @@ console.log(duplcates)
 // const  empArr ={
 //     name:"samiksha",age:"22",
 //     name:"iksha",age:"27",
-//     name:"sami",age:"2u",
+//     name:"sami",age:"28",
 //     name:"amiksha",age:"28",
 //     name:"miksha",age:"28",
 //    };
-   
 //    const findItem=empArr.find((item)=>{
 //        return item.age>30
 //    })
@@ -99,11 +125,12 @@ console.log(duplcates)
 //     }
 //     return(missArray)
 // }
-
 // console.log(missingValue(arrNumber))
 
+
+
 // how to find even or odd number in a given array in javaScript
- const numbers = [12,34,56,78,90,13]
+//  const numbers = [12,34,56,78,90,13]
 //  const even=numbers.filter((item)>{
 //     return item%2===0
 //  })
@@ -124,6 +151,21 @@ console.log(duplcates)
 // }
 // console.log(sumOfNumber(number))
 
+// const number = [23,1,2,3,4,5,67,9]
+// const sumOfNumber=(arr)=>{
+//     return arr.reduce((pre,cur)=>{
+//         return pre+cur
+//     })
+// }
+// console.log(sumOfNumber(number))
+
+// const list = ["a","p","p","l","e"]
+// const sumOfNumber = (arr) =>{
+//     return arr.reduce((pre,cur)=>{
+//         return pre+cur
+//     })
+// }
+// console.log(sumOfNumber(list))
 
 // how to find Factrocial(n!) of a given number in java script
 //  the Fcctroical of a number is the product of all number from 1 to that number
@@ -148,7 +190,11 @@ console.log(duplcates)
 // }
 // console.log(reverseString("butter"))
 
-
+const reverseString=(str)=>{
+    var strToArray=str.spilt("")
+    return strToArray
+}
+console.log(reverseString("teamindia"))
 
 
 
