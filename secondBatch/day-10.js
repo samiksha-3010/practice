@@ -15,10 +15,10 @@ console.log(myObject)
 
 // Q given an array and return only unike number
 
-// var number= [0,1,2,3,3,4,4,0,1,2,5,6,6,5,10,11]
-// var number = [...new Set(number)];
+var number= [0,1,2,3,3,4,4,0,1,2,5,6,6,5,10,11]
+var number = [...new Set(number)];
 
-// console.log(number);
+console.log(number);
 
 
 var numbers = [0, 1, 2, 3, 3, 4, 4, 0, 1, 2, 5, 6, 6, 5];
@@ -36,9 +36,7 @@ console.log(uniqueNumbers);
 
 
 // const numbers = [0, 1, 2, 3, 3, 4, 4, 0, 1, 2, 5, 6, 6, 5];
-
 // let temp = {};
-
 // for (let i = 0; i < numbers.length; i++) {
 //   if (numbers[i] in temp) {
 //     temp[numbers[i]] += 1;
