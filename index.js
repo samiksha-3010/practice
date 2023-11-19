@@ -1,14 +1,14 @@
-// var  num1= 34;
-// var num2 = 34; 
+var  num1= 34;
+var num2 = 4; 
 
-// if (num1  === num2){
-//     console.log("equl")
+if (num1  === num2){
+    console.log("equl")
   
-// }
-// else {
-//     console.log("notequl")
+}
+else {
+    console.log("notequl")
 
-// }
+}
 
 // var  num1= 45;
 // var   num2= 41;
@@ -32,24 +32,28 @@
 //  else{
 //     console.log("false")
 //  }
-//  var num1= 234;
-//  var num2= 785;
+ var num1= 234;
+ var num2= 785;
 
-//  if(9>10 || 46> 45){
-//     console.log("insidetrue")
+ if(11>10 || 42> 45){
+    console.log("insidetrue")
 
-//  }
-//  else{
-//     console.log("insidefalse")
-//  }
+ }
+ else{
+    console.log("insidefalse")
+ }
 
-// function checkValue(a,b){
-//     if(a===  1)
-//     if(b=== 2)
-//     console.log("a is 1 and b is 2");
-//  else
-//  console.log("a is not 1");
-// }
+function checkValue(a,b){
+    if(a===  1)
+    if(b=== 2){
+        console.log("a is 1 and b is 2");
+    } else{
+        console.log("a is not 1");
+    }
+   
+   }
+    
+
 
 // var num1 = 124
 // var num2 = 765
@@ -62,15 +66,15 @@
 //      }
                 //   =======Example========
 
-// var name = 'samiksha yadav';
-// var gender = "feamle";
-// if(gender == "female"){
-//     console.log("Hello Ms. " + name);
+var name = 'samiksha yadav';
+var gender = "feamle";
+if(gender == "female"){
+    console.log("Hello Ms. " + name);
 
-// }else{
-//     console.log("Hello Mr. " + name);
+}else{
+    console.log("Hello Mr. " + name+gender);
 
-// }
+}
 // var name = 'samiksha yadav;
 // var gender = "male";
 
@@ -82,13 +86,13 @@
 // }
 
    
-// varx = 10
-// if(16) {
-//     console.log("x is same ");
-// }
-// else{
-//     console.log("x is not same")
-// }
+var x = 10
+if(7) {
+    console.log("x is same ");
+}
+else{
+    console.log("x is not same")
+}
    
 
 // var per =59;

@@ -12,7 +12,8 @@
 // console.log(duplcates)  // romve the duplicate string
 
 
-// const arrNumber = [1,2,3,4,5,6,7] 
+
+// const arrNumber = [1,23,2,3,4,5,6,7,8,1] 
 // // const arrNumber=[2,34,56,78,90]
 
 // const maxFunction=(arr)=>{
@@ -190,11 +191,11 @@
 // }
 // console.log(reverseString("butter"))
 
-const reverseString=(str)=>{
-    var strToArray=str.spilt("")
-    return strToArray
-}
-console.log(reverseString("teamindia"))
+// const reverseString=(str)=>{
+//     var strToArray=str.spilt("")
+//     return strToArray
+// }
+// console.log(reverseString("teamindia"))
 
 
 

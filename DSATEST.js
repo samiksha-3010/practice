@@ -102,27 +102,21 @@
 //       //   console.log(res);
 //     }
 //   }
-
 //   return res;
 // };
-
 // console.log(sumOfMultiples(n));
 
 
 // // Sumof1array
 
-// let nums = [1, 2, 3, 4];
-
-// let newArr = [];
-
-// let sum = 0;
-
-// for (let i = 0; i < nums.length; i++) {
-//   sum += nums[i];
-//   newArr.push(sum);
-// }
-
-// console.log(newArr);
+let nums = [1, 2, 3, 4];
+let newArr = [];
+let sum = 0;
+for (let i = 0; i < nums.length; i++) {
+  sum += nums[i];
+  newArr.push(sum);
+}
+console.log(newArr);
 
 //solution 2 function based
 
@@ -191,9 +185,9 @@
 // if 3 is a even number "Bazinga"
 // if else
 
-if(3%2 == 0){
-  console.log("Bazinga")
-}
+// if(3%2 == 0){
+//   console.log("Bazinga")
+// }
 
 
 // print the greeating
@@ -204,15 +198,15 @@ if(3%2 == 0){
  
 
 
-switch(button){
-  case 1 : console.log("Hello");
-  break;
-  case 1 : console.log("Namstai");
-  break;
-  case 1 : console.log("Banjor");
-  break;
-  default: console.log("Invalid Button");
+// switch(button){
+//   case 1 : console.log("Hello");
+//   break;
+//   case 1 : console.log("Namstai");
+//   break;
+//   case 1 : console.log("Banjor");
+//   break;
+//   default: console.log("Invalid Button");
  
-}
+// }
 
 
