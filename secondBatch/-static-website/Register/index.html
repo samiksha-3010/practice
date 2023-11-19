@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Welcome Register</title>
+    <style>
+      .register{
+            border: 1px solid black;
+            width: 15%;
+            margin: auto;
+            margin-top: 20PX;
+         padding-left: 8%;
+         height: 300px;
+      }
+      .register>h1{
+            color: red;
+
+      }
+    </style>
+</head>
+
+<body>
+   <div class="register"> 
+      <h1>Register</h1>
+      <form onsubmit="Register(event)">
+          <label> Your Name</label><br />
+          <input type="text" id="name" /><br />
+          <label> Your Email</label><br />
+          <input type="email" id="email" /><br />
+          <label> Your Password</label><br />
+          <input type="password" id="password" /><br />
+          <input type="submit" value="Register?" /><br />
+      </form></div>
+
+    <!-- <button onclick="Register()">HI</button> -->
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

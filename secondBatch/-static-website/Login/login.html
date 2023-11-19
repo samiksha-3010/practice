@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Welcome Login</title>
+    <style>
+       .login{
+            border: 1px solid black;
+            width: 15%;
+            margin: auto;
+            margin-top: 20PX;
+         padding-left: 8%;
+         height: 300px;
+      }
+      .login>h1{
+            color: red;
+
+      }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+      <h1>Login</h1>
+    <form onsubmit="login(event)">
+        <label> Your Email</label><br />
+        <input type="email" id="email" /><br />
+        <label> Your Password</label><br />
+        <input type="password" id="password" /><br />
+        <input  type="submit" /><br />
+    </form>
+    </div>
+
+    <script src="./login.js"></script>
+</body>
+
+</html>
