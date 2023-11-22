@@ -304,3 +304,58 @@
 // })
 
 // console.log(mapping)
+
+
+// var myName = "samiksah"
+// var = "Virat";
+
+// console.log(myName)
+
+// let myAge = 20
+//   let myAge = 21;
+//   console.log(myAge)
+
+// const myAge = 20;
+// myAge = 21;
+// console.log(myAge)
+
+
+// const myAge = 20;
+//   const myAge = 21;
+// console.log(myAge)
+
+
+// hosting
+
+// var myAge = 20
+// console.log(myAge)
+// var myAge
+
+// var myAge = 20
+// console.log(myAge)
+// const myAge
+
+// myAge()
+// function myAge(){
+//     console.log(20)
+// }
+
+// const myAge=()=>{
+//     console.log(20)
+// }
+// myAge()
+
+
+// const myAge=()=> console.log(20)
+//     console.log(20)
+
+// myAge()
+
+
+const addition =  a => console.log(a+a)
+
+addition(2)
+
+
+
+
