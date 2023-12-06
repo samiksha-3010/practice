@@ -1,37 +1,37 @@
 <!-- programe to printing star and number pattrens right triangle ,pyramidand and dimoand shape in the java script -->
 <script>
-      // squire pattren
-      // for (let i = 1; i <= 6;i++){
-      //       for(let j = 1;j <= i; j++){
-      //             document.write("*" +"&nbsp;&nbsp;")
-      //       }
-      //       document.write("<br/>")
-      // }
+    //   squire pattren
+      for (let i = 1; i <= 6;i++){
+            for(let j = 1;j <= i; j++){
+                  document.write("*" +"&nbsp;&nbsp;")
+            }
+            document.write("<br/>")
+      }
   
 
       //diamond pattren
-      // for (let  i = 1; i <= 6; i++){
-      //       for(let j = 1; j <= 6 - i; j++){
-      //             document.write("&nbsp;&nbsp;")
-      //       }
-      //       for(let j = 1; j <= i - i; j++){
-      //             document.write("*" +"&nbsp;&nbsp;")
-      //       }
-      //       document.write("<br/>")
-      // }
+      for (let  i = 1; i <= 6; i++){
+            for(let j = 1; j <= 6 - i; j++){
+                  document.write("&nbsp;&nbsp;")
+            }
+            for(let j = 1; j <= i - i; j++){
+                  document.write("*" +"&nbsp;&nbsp;")
+            }
+            document.write("<br/>")
+      }
 
 
-      // for (let  i = 1; i <= 6; i++){
-      //       for(let k = 1; k <=  i; k++){
-      //             document.write("&nbsp;&nbsp;")
-      //       }
-      //       for(let j = 1; j <= 3 - i; j++){
-      //             document.write("*" +"&nbsp;&nbsp;")
-      //       }
+      for (let  i = 1; i <= 6; i++){
+            for(let k = 1; k <=  i; k++){
+                  document.write("&nbsp;&nbsp;")
+            }
+            for(let j = 1; j <= 3 - i; j++){
+                  document.write("*" +"&nbsp;&nbsp;")
+            }
 
 
-      //       document.write("<br/>")
-      // }
+            document.write("<br/>")
+      }
 
 //       function printStarPyramid(rows) {
 //     for (let i = 1; i <= rows; i++) {
@@ -40,11 +40,11 @@
 //     }
 // }
 
-// // Change the value of 'rows' to adjust the size of the pyramid
+// // // Change the value of 'rows' to adjust the size of the pyramid
 // let rows = 4;
 // printStarPyramid(rows);
 
-// function printStarPattern(rows) {
+// function printStarPyramid(rows) {
 //     let i = 1;
 //     while (i <= rows) {
 //         if (i % 2 !== 0) {
@@ -60,16 +60,16 @@
 // let rows = 4;
 // printStarPattern(rows);
 
-function printStarPattern(rows) {
-    for (let i = 1; i <= rows; i++) {
-        let stars = '*'.repeat(i);
-        console.log(stars);
-    }
-}
+// function printStarPattern(rows) {
+//     for (let i = 1; i <= rows; i++) {
+//         let stars = '*'.repeat(i);
+//         console.log(stars);
+//     }
+// }
 
-// Change the value of 'rows' to adjust the size of the pattern
-let rows = 4;
-printStarPattern(rows);
+// // Change the value of 'rows' to adjust the size of the pattern
+// let rows = 7;
+// printStarPattern(rows);
 
 
 

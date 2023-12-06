@@ -47,7 +47,6 @@ function functionOne(){
     return "hello from function"  
 }
 functionOne();
-cccc
 function addtion(num1,num2){
  // console.log(2+3)   // it only print the passed value
   return num1 + num2 // it return the pass value
