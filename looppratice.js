@@ -8,17 +8,17 @@
 //     console.log(element = element)               ///foreach loop 
 // })
 
-  var num2 =[23, 45, 67, 89, 12, 34]
- for (var i = 0; i<num2.length; i++){
-    var j = 0; i<num2.length;j++
-    var k = 0; i<num2.length;k++
-    console.log(num2[i])
- }
+//   var num2 =[23, 45, 67, 89, 12, 34]
+//  for (var i = 0; i<num2.length; i++){
+//     var j = 0; i<num2.length;j++
+//     var k = 0; i<num2.length;k++
+//     console.log(num2[i])
+//  }
 
-// concat maethd
+// concat mathod
 
-// var nummore = [12, 34, 56, 78, 90, 12, 34, 56, 56]
-// let  newArr = nummore.concat(more) 
+var nummore = [12, 34, 56, 78, 90, 12, 34, 56, 56]
+let  newArr = nummore.concat(more)  
 
 
 // const arr1 = [23, 12, 14, 15, 21]

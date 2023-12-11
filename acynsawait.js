@@ -252,12 +252,11 @@
 // } 
 
 
-// var arr = ["ab", "bc", "cd", "de", "ef", "fg", 1, 2, 1, 2, 1, 2, 1, 1, 1];
+var arr = ["ab", "bc", "cd", "de", "ef", "fg", 1, 2, 1, 2, 1, 2, 1, 1, 1];
 
-
-// for (ar of arr) {
-//   console.log(ar);
-// }
+for (ar of arr) {
+  console.log(ar);
+}
 
 
 // let target = 50;
@@ -281,14 +280,14 @@
 // }
 
 
-// let total = [12,34,56,79,12]
+let total = [12,34,56,79,12]
 
-// let sum = 0;
+let sum = 0;
 
-// for(let i=0; i< total.length; i++){
-//     sum += total[i]
-// }
-// console.log(sum)
+for(let i=0; i< total.length; i++){
+    sum += total[i]
+}
+console.log(sum)
 
 // let arr = [12,34,56,78,12 ]
 // let newArray  = arr.filter((num,i)=>{
