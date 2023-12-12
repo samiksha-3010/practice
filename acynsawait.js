@@ -99,7 +99,7 @@
 //          return newOdd.length;
 
 //     }
-//     console.log (oddNum(array));
+//     console.log (oddNum(array)); 
 
 
 

@@ -1,7 +1,7 @@
 
-// for ( i = 5; i <= 50; i+=5){
-//     console.log (i)
-// }
+for ( i = 5; i <= 50; i+=5){
+    console.log (i)
+}
 
 //  var arr = ["ab", "bc", "cd", "de", "ef", "fg", 1, 2, 1, 2, 1, 2, 1, 1, 1];
 
